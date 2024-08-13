@@ -1,6 +1,6 @@
 const express = require('express');
 const helmet = require('helmet');
-const migrateAll = require('./migrations/migrate');
+const migrateAll = require('./migrations/migrate.js');
 
 const app = express();
 const port = 3000;
